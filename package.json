@@ -1,0 +1,25 @@
+{
+  "name": "P2PChat",
+  "version": "0.0.1",
+  "description": "browser-based P2P chat",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node_modules/.bin/firebase serve -p 9090 -o 0.0.0.0",
+    "test": "echo \"Test: no test specified\" && exit 0",
+    "deploy": "node_modules/.bin/firebase deploy --token $FIREBASE_TOKEN",
+    "deploy-functions": "node_modules/.bin/firebase deploy --only functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gang500ml/P2PChat.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gang500ml/P2PChat/issues"
+  },
+  "homepage": "https://github.com/gang500ml/P2PChat#readme",
+  "dependencies": {
+    "firebase-tools": "^3.18.4"
+  }
+}
